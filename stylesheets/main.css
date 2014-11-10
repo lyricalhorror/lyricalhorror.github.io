@@ -1,0 +1,325 @@
+@import url(http://fonts.googleapis.com/css?family=Cardo:400,400italic,700);
+/* line 6, /Users/Matt/Desktop/website/source/stylesheets/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  -webkit-margin-after: 0em;
+  -webkit-margin-before: 0em;
+  -webkit-margin-end: 0px;
+  -webkit-margin-start: 0px;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+/* line 20, /Users/Matt/Desktop/website/source/stylesheets/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 23, /Users/Matt/Desktop/website/source/stylesheets/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 26, /Users/Matt/Desktop/website/source/stylesheets/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 29, /Users/Matt/Desktop/website/source/stylesheets/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 33, /Users/Matt/Desktop/website/source/stylesheets/_reset.scss */
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+/* line 39, /Users/Matt/Desktop/website/source/stylesheets/_reset.scss */
+q:before, q:after {
+  content: "";
+  content: none; }
+
+/* line 44, /Users/Matt/Desktop/website/source/stylesheets/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 1, /Users/Matt/Desktop/website/source/stylesheets/global/_!manifest.scss */
+* {
+  transition: all .3s; }
+
+/* line 5, /Users/Matt/Desktop/website/source/stylesheets/global/_!manifest.scss */
+body {
+  background-color: #FEFCFA;
+  color: #464441;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  font-family: "Cardo", serif;
+  box-sizing: border-box;
+  border-top: 5px solid #1D78AF; }
+  /* line 14, /Users/Matt/Desktop/website/source/stylesheets/global/_!manifest.scss */
+  body img {
+    width: 100%; }
+
+/* line 4, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+.l-base .m-header {
+  max-width: 600px;
+  margin: 0 auto; }
+  /* line 7, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-header hr {
+    border: none;
+    border-bottom: 1px solid;
+    border-color: #93928F;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    position: relative; }
+    /* line 14, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+    .l-base .m-header hr:after {
+      content: '&';
+      background-color: #FEFCFA;
+      color: #1D78AF;
+      font-style: italic;
+      font-size: 300%;
+      position: absolute;
+      left: 50%;
+      margin-left: -.625em;
+      top: -.625em;
+      width: 1.25em;
+      height: 1.25em;
+      text-align: center;
+      border-radius: 50%;
+      line-height: 1.35em; }
+/* line 38, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+.l-base .m-article-heading {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 1.75rem; }
+  /* line 43, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-article-heading h2 {
+    font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    font-size: 3.5em;
+    margin-bottom: .5rem; }
+  /* line 49, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-article-heading h3 {
+    font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    font-size: 2em;
+    margin-bottom: 4rem;
+    color: #93928F;
+    font-style: italic; }
+  /* line 57, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-article-heading byline {
+    font-size: .8em;
+    font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    color: #1D78AF; }
+    /* line 61, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+    .l-base .m-article-heading byline span {
+      text-transform: uppercase; }
+/* line 66, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+.l-base .m-article-body {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 2em; }
+  /* line 70, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-article-body hr {
+    border: none;
+    border-bottom: 5px solid;
+    border-color: #1D78AF;
+    margin-bottom: 1.5rem; }
+  /* line 76, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-article-body p {
+    margin-bottom: 1.75rem; }
+    /* line 78, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+    .l-base .m-article-body p:first-of-type {
+      font-style: italic;
+      font-size: 1.05em;
+      font-weight: bold;
+      letter-spacing: -1px;
+      color: #2c2a28; }
+  /* line 86, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-article-body .pullquotes {
+    font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    font-style: italic;
+    margin-bottom: 1.75rem;
+    font-size: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 1.25em;
+    color: #1D78AF; }
+/* line 97, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+.l-base .m-pages {
+  width: 600px;
+  margin: 0 auto; }
+  /* line 100, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-pages p {
+    text-align: center; }
+  /* line 103, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-pages hr {
+    border: none;
+    border-bottom: 1px solid;
+    border-color: #1D78AF;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+/* line 111, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+.l-base .m-previous,
+.l-base .m-next {
+  position: fixed;
+  top: 50%; }
+  /* line 115, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-previous a,
+  .l-base .m-next a {
+    text-decoration: none;
+    color: #464441;
+    background-color: #f6e3cf;
+    padding: .5em;
+    border-radius: 3px; }
+    /* line 121, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+    .l-base .m-previous a:hover,
+    .l-base .m-next a:hover {
+      background-color: #faefe5; }
+  /* line 125, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-previous span,
+  .l-base .m-next span {
+    font-style: italic; }
+/* line 129, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+.l-base .m-previous {
+  left: 0;
+  transform: translateX(-95px); }
+  /* line 132, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-previous:hover {
+    transform: translateX(0px); }
+  /* line 135, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-previous a {
+    padding-right: 1em; }
+  /* line 138, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-previous span {
+    padding-right: .75em; }
+/* line 142, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+.l-base .m-next {
+  right: 0;
+  transform: translateX(75px); }
+  /* line 145, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-next:hover {
+    transform: translateX(0px); }
+  /* line 148, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-next a {
+    padding-left: 1em; }
+  /* line 151, /Users/Matt/Desktop/website/source/stylesheets/global/_l-base.scss */
+  .l-base .m-next span {
+    padding-left: .75em; }
+
+/* line 10, /Users/Matt/Desktop/website/source/stylesheets/global/_l-normal.scss */
+.l-normal .m-article-heading {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 1.75rem; }
+  /* line 15, /Users/Matt/Desktop/website/source/stylesheets/global/_l-normal.scss */
+  .l-normal .m-article-heading h2 {
+    font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    font-size: 3.5em;
+    margin-bottom: .5rem; }
+  /* line 21, /Users/Matt/Desktop/website/source/stylesheets/global/_l-normal.scss */
+  .l-normal .m-article-heading h3 {
+    font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    font-size: 2em;
+    margin-bottom: 4rem;
+    color: #93928F;
+    font-style: italic; }
+  /* line 29, /Users/Matt/Desktop/website/source/stylesheets/global/_l-normal.scss */
+  .l-normal .m-article-heading byline {
+    font-size: .8em;
+    font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    color: #1D78AF; }
+    /* line 33, /Users/Matt/Desktop/website/source/stylesheets/global/_l-normal.scss */
+    .l-normal .m-article-heading byline span {
+      text-transform: uppercase; }
+/* line 38, /Users/Matt/Desktop/website/source/stylesheets/global/_l-normal.scss */
+.l-normal .m-article-body {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 2em; }
+  /* line 42, /Users/Matt/Desktop/website/source/stylesheets/global/_l-normal.scss */
+  .l-normal .m-article-body hr {
+    border: none;
+    border-bottom: 1px solid;
+    border-color: #93928F;
+    margin-bottom: 1.5rem; }
+  /* line 48, /Users/Matt/Desktop/website/source/stylesheets/global/_l-normal.scss */
+  .l-normal .m-article-body p {
+    margin-bottom: 1.75rem; }
+    /* line 50, /Users/Matt/Desktop/website/source/stylesheets/global/_l-normal.scss */
+    .l-normal .m-article-body p:first-of-type {
+      font-style: italic;
+      font-size: 1.05em;
+      font-weight: bold;
+      letter-spacing: -1px;
+      color: #2c2a28; }
+  /* line 58, /Users/Matt/Desktop/website/source/stylesheets/global/_l-normal.scss */
+  .l-normal .m-article-body .pullquotes {
+    font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    font-style: italic;
+    margin-bottom: 1.75rem;
+    font-size: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 1.25em;
+    color: #1D78AF; }
+
+/* line 10, /Users/Matt/Desktop/website/source/stylesheets/global/_l-special.scss */
+.l-special .m-article-heading {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 1.75rem; }
+  /* line 15, /Users/Matt/Desktop/website/source/stylesheets/global/_l-special.scss */
+  .l-special .m-article-heading h2 {
+    font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    font-size: 3.5em;
+    margin-bottom: .5rem; }
+  /* line 21, /Users/Matt/Desktop/website/source/stylesheets/global/_l-special.scss */
+  .l-special .m-article-heading h3 {
+    font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    font-size: 2em;
+    margin-bottom: 4rem;
+    color: #93928F;
+    font-style: italic; }
+  /* line 29, /Users/Matt/Desktop/website/source/stylesheets/global/_l-special.scss */
+  .l-special .m-article-heading byline {
+    font-size: .8em;
+    font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    color: #1D78AF; }
+    /* line 33, /Users/Matt/Desktop/website/source/stylesheets/global/_l-special.scss */
+    .l-special .m-article-heading byline span {
+      text-transform: uppercase; }
+/* line 38, /Users/Matt/Desktop/website/source/stylesheets/global/_l-special.scss */
+.l-special .m-article-body {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 2em; }
+  /* line 42, /Users/Matt/Desktop/website/source/stylesheets/global/_l-special.scss */
+  .l-special .m-article-body hr {
+    border: none;
+    border-bottom: 1px solid;
+    border-color: #93928F;
+    margin-bottom: 1.5rem; }
+  /* line 48, /Users/Matt/Desktop/website/source/stylesheets/global/_l-special.scss */
+  .l-special .m-article-body p {
+    margin-bottom: 1.75rem; }
+    /* line 50, /Users/Matt/Desktop/website/source/stylesheets/global/_l-special.scss */
+    .l-special .m-article-body p:first-of-type {
+      font-style: italic;
+      font-size: 1.05em;
+      font-weight: bold;
+      letter-spacing: -1px;
+      color: #2c2a28; }
+  /* line 58, /Users/Matt/Desktop/website/source/stylesheets/global/_l-special.scss */
+  .l-special .m-article-body .pullquotes {
+    font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    font-style: italic;
+    margin-bottom: 1.75rem;
+    font-size: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 1.25em;
+    color: #1D78AF; }
