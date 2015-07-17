@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+/* line 6, /Users/Matt/Desktop/shawnas-site/source/stylesheets/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  -webkit-margin-after: 0em;
+  -webkit-margin-before: 0em;
+  -webkit-margin-end: 0px;
+  -webkit-margin-start: 0px;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+/* line 20, /Users/Matt/Desktop/shawnas-site/source/stylesheets/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 23, /Users/Matt/Desktop/shawnas-site/source/stylesheets/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 26, /Users/Matt/Desktop/shawnas-site/source/stylesheets/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 29, /Users/Matt/Desktop/shawnas-site/source/stylesheets/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 33, /Users/Matt/Desktop/shawnas-site/source/stylesheets/_reset.scss */
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+/* line 39, /Users/Matt/Desktop/shawnas-site/source/stylesheets/_reset.scss */
+q:before, q:after {
+  content: "";
+  content: none; }
+
+/* line 44, /Users/Matt/Desktop/shawnas-site/source/stylesheets/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 2, /Users/Matt/Desktop/shawnas-site/source/stylesheets/_special.scss */
+.suGender .m-lead {
+  background-image: url("/images/sugender.jpg"); }
+
+/* line 1, /Users/Matt/Desktop/shawnas-site/source/stylesheets/styles/_main.scss */
+body {
+  line-height: 1.75em;
+  color: #3C3C3C; }
+
+/* line 6, /Users/Matt/Desktop/shawnas-site/source/stylesheets/styles/_main.scss */
+img,
+video {
+  width: 100%; }
+
+/* line 11, /Users/Matt/Desktop/shawnas-site/source/stylesheets/styles/_main.scss */
+.m-article {
+  padding-bottom: 1em; }
+
+/* line 15, /Users/Matt/Desktop/shawnas-site/source/stylesheets/styles/_main.scss */
+.m-lead {
+  height: 0%;
+  padding-bottom: 54%;
+  background-size: cover; }
+
+/* line 21, /Users/Matt/Desktop/shawnas-site/source/stylesheets/styles/_main.scss */
+.m-content-container {
+  margin: 2.25% 0%; }
+  /* line 24, /Users/Matt/Desktop/shawnas-site/source/stylesheets/styles/_main.scss */
+  .m-content-container .m-content {
+    width: 50%;
+    margin: 0 auto; }
+  /* line 32, /Users/Matt/Desktop/shawnas-site/source/stylesheets/styles/_main.scss */
+  .m-content-container img,
+  .m-content-container video {
+    margin: 2em 0em; }
+  /* line 36, /Users/Matt/Desktop/shawnas-site/source/stylesheets/styles/_main.scss */
+  .m-content-container h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 4em;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1em;
+    margin-top: .65em;
+    margin-bottom: .25em; }
+  /* line 45, /Users/Matt/Desktop/shawnas-site/source/stylesheets/styles/_main.scss */
+  .m-content-container h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-bottom: 2em; }
+  /* line 51, /Users/Matt/Desktop/shawnas-site/source/stylesheets/styles/_main.scss */
+  .m-content-container p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    margin-bottom: 1em; }
+
+/* line 58, /Users/Matt/Desktop/shawnas-site/source/stylesheets/styles/_main.scss */
+.quote-left,
+.quote-right {
+  width: 40%; }
+  /* line 61, /Users/Matt/Desktop/shawnas-site/source/stylesheets/styles/_main.scss */
+  .quote-left p,
+  .quote-right p {
+    font-family: "Playfair Display", serif;
+    color: #7c7c7c;
+    font-size: 2em;
+    line-height: 1.1em;
+    margin-bottom: .5em; }
+
+/* line 70, /Users/Matt/Desktop/shawnas-site/source/stylesheets/styles/_main.scss */
+.quote-left {
+  float: left;
+  padding-right: 5%;
+  margin-left: -15%; }
+
+/* line 76, /Users/Matt/Desktop/shawnas-site/source/stylesheets/styles/_main.scss */
+.quote-right {
+  float: right;
+  padding-left: 5%;
+  margin-right: -15%; }
