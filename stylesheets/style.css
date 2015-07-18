@@ -56,6 +56,10 @@ table {
 .fusion .m-lead {
   background-image: url("/images/alexandrite.jpg"); }
 
+/* line 20, /Users/Matt/Projects/shawnas-site/source/stylesheets/_special.scss */
+.representation .m-lead {
+  background-image: url("/images/beach-gang.jpg"); }
+
 /* line 1, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
 * {
   -webkit-transition: all 0.3s;
