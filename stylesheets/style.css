@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,400,800,700,600);
 /* line 6, /Users/Matt/Projects/shawnas-site/source/stylesheets/_reset.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   -webkit-margin-after: 0em;
@@ -45,12 +45,16 @@ table {
   border-spacing: 0; }
 
 /* line 2, /Users/Matt/Projects/shawnas-site/source/stylesheets/_special.scss */
+.intro .m-lead {
+  padding-bottom: 0%; }
+
+/* line 8, /Users/Matt/Projects/shawnas-site/source/stylesheets/_special.scss */
 .suGender .m-lead {
   background-image: url("/images/sugender.jpg"); }
 
-/* line 8, /Users/Matt/Projects/shawnas-site/source/stylesheets/_special.scss */
-.intro .m-lead {
-  padding-bottom: 0%; }
+/* line 14, /Users/Matt/Projects/shawnas-site/source/stylesheets/_special.scss */
+.fusion .m-lead {
+  background-image: url("/images/alexandrite.jpg"); }
 
 /* line 1, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
 * {
@@ -88,35 +92,43 @@ a {
     color: #3C3C3C; }
 
 /* line 32, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+i {
+  font-style: italic; }
+
+/* line 36, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+b {
+  font-weight: 700; }
+
+/* line 40, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
 .m-article {
   padding-bottom: 1em; }
 
-/* line 36, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+/* line 44, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
 .m-lead {
   height: 0%;
   padding-bottom: 54%;
   background-size: cover; }
 
-/* line 42, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+/* line 50, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
 .m-content-container {
   margin: 2.25% 0%; }
-  /* line 45, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+  /* line 53, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
   .m-content-container .m-content {
     width: 50%;
     margin: 0 auto; }
     @media (max-width: 1200px) {
-      /* line 45, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+      /* line 53, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
       .m-content-container .m-content {
         width: 70%; } }
     @media (max-width: 600px) {
-      /* line 45, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+      /* line 53, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
       .m-content-container .m-content {
         width: 90%; } }
-  /* line 62, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+  /* line 70, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
   .m-content-container img,
   .m-content-container video {
     margin: 2em 0em; }
-  /* line 66, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+  /* line 74, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
   .m-content-container h1 {
     font-family: "Playfair Display", serif;
     font-size: 4em;
@@ -126,38 +138,59 @@ a {
     margin-top: .65em;
     margin-bottom: .25em; }
     @media (max-width: 900px) {
-      /* line 66, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+      /* line 74, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
       .m-content-container h1 {
         font-size: 3em; } }
     @media (max-width: 600px) {
-      /* line 66, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+      /* line 74, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
       .m-content-container h1 {
         font-size: 2em; } }
-  /* line 81, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+  /* line 89, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
   .m-content-container h2 {
     font-family: "Playfair Display", serif;
     font-size: 1.25em;
     font-weight: 500;
     margin-bottom: 2em; }
     @media (max-width: 900px) {
-      /* line 81, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+      /* line 89, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
       .m-content-container h2 {
         font-size: 1em; } }
-  /* line 90, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+  /* line 98, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
   .m-content-container p {
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
     margin-bottom: 1em; }
 
-/* line 97, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+/* line 105, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+.trigger {
+  background-color: #ef8b80;
+  color: #FFFFFF;
+  padding: .5em 1em;
+  margin-bottom: 1em; }
+  /* line 110, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+  .trigger p {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin: 0; }
+
+/* line 118, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
 .m-links {
   font-size: 2em; }
+  @media (max-width: 600px) {
+    /* line 118, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+    .m-links {
+      font-size: 1.25em; } }
+  /* line 123, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+  .m-links a {
+    display: block;
+    margin-bottom: .5em; }
 
-/* line 101, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+/* line 129, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
 .quote-left,
 .quote-right {
   width: 40%; }
-  /* line 104, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+  /* line 132, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
   .quote-left p,
   .quote-right p {
     font-family: "Playfair Display", serif;
@@ -166,31 +199,44 @@ a {
     line-height: 1.1em;
     margin-bottom: .5em; }
   @media (max-width: 900px) {
-    /* line 101, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+    /* line 129, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
     .quote-left,
     .quote-right {
       width: 100%; } }
 
-/* line 122, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+/* line 150, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
 .quote-left {
   float: left;
   padding-right: 5%;
   margin-left: -15%; }
   @media (max-width: 900px) {
-    /* line 122, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+    /* line 150, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
     .quote-left {
       float: none;
       padding-right: 0%;
       margin-left: 0%; } }
 
-/* line 133, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+/* line 161, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
 .quote-right {
   float: right;
   padding-left: 5%;
   margin-right: -15%; }
   @media (max-width: 900px) {
-    /* line 133, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+    /* line 161, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
     .quote-right {
       float: none;
       padding-left: 0%;
       margin-right: 0%; } }
+
+/* line 172, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+.block-quote {
+  margin-bottom: 1em; }
+  /* line 174, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
+  .block-quote p {
+    font-family: "Playfair Display", serif;
+    color: #7c7c7c;
+    font-size: 2em;
+    line-height: 1.1em;
+    margin-bottom: 0;
+    font-style: italic;
+    font-weight: 700; }
