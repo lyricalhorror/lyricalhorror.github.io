@@ -60,6 +60,10 @@ table {
 .representation .m-lead {
   background-image: url("/images/beach-gang.jpg"); }
 
+/* line 26, /Users/Matt/Projects/shawnas-site/source/stylesheets/_special.scss */
+.gender_roles .m-lead {
+  background-image: url("/images/first-shield.jpg"); }
+
 /* line 1, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
 * {
   -webkit-transition: all 0.3s;
@@ -167,7 +171,7 @@ b {
 
 /* line 105, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
 .trigger {
-  background-color: #ef8b80;
+  background-color: #ed7669;
   color: #FFFFFF;
   padding: .5em 1em;
   margin-bottom: 1em; }
