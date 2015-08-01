@@ -136,7 +136,7 @@ b {
   padding-bottom: 54%;
   background-size: cover;
   background-position: 50% 50%; }
-  @media (max-width: 1200px) {
+  @media (min-width: 1200px) {
     /* line 60, /Users/Matt/Projects/shawnas-site/source/stylesheets/styles/_main.scss */
     .m-lead {
       padding-bottom: 40%; } }
